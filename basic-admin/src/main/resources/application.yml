@@ -3,7 +3,9 @@ spring:
         name: "basic-admin"
     datasource:
         driver-class-name: "com.mysql.cj.jdbc.Driver"
-        url: "jdbc:mysql://127.0.0.1/db_admin?characterEncoding"
+        url: "jdbc:mysql://127.0.0.1/db_admin?characterEncoding=utf-8"
+        username: root
+        password: root
 
 
 server:
