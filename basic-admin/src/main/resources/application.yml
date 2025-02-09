@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: "basic-admin"
+    datasource:
+        driver-class-name: "com.mysql.cj.jdbc.Driver"
+        url: "jdbc:mysql://127.0.0.1/db_admin?characterEncoding"
+
+
+server:
+    port: 8888
